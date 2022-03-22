@@ -21,17 +21,20 @@ header {
     margin-bottom: 2.5em;
 }
 header h2 {
-font-size: 550%;
-text-align: center;
+    font-size: 550%;
+    text-align: center;
 }
 header h2 a {
-text-decoration: none;
-color: white;
+    text-decoration: none;
+    color: white;
 }
 header h3 {
-font-size: 400%;
-text-align: center;
-color: white;
+    font-size: 400%;
+    text-align: center;
+}
+header h3 a {
+    text-decoration: none;
+    color: white;
 }
 
 .row {
