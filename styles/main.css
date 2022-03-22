@@ -17,11 +17,11 @@ padding: 32px 0;
 
 header {
     background-color: lightgray;
-    padding: 20em;
+    padding: 18em;
     margin-bottom: 2.5em;
 }
 header h2 {
-font-size: 600%;
+font-size: 550%;
 text-align: center;
 }
 header h2 a {
@@ -29,7 +29,7 @@ text-decoration: none;
 color: white;
 }
 header h3 {
-font-size: 450%;
+font-size: 400%;
 text-align: center;
 color: white;
 }
