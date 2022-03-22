@@ -17,11 +17,11 @@ padding: 32px 0;
 
 header {
     background-color: lightgray;
-    padding: 18em;
+    padding: 15em;
     margin-bottom: 2.5em;
 }
 header h2 {
-    font-size: 550%;
+    font-size: 400%;
     text-align: center;
 }
 header h2 a {
@@ -29,7 +29,7 @@ header h2 a {
     color: white;
 }
 header h3 {
-    font-size: 400%;
+    font-size: 300%;
     text-align: center;
 }
 header h3 a {
@@ -92,17 +92,46 @@ footer p {
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
-.column {
-    flex: 50%;
-    max-width: 50%;
+    .column {
+        flex: 50%;
+        max-width: 50%;
+        }
+    header {
+        padding: 10em;
     }
-header {
-    padding: 10em;
+    header h2 {
+        font-size: 250%;
+    }
+    header h3 {
+        font-size: 150%;
+    }
 }
-header h2 {
-    font-size: 250%;
+
+@media (max-width: 567px) {
+    .row {
+        margin: .3em 0;
+    }
+    header {
+        padding: 5em;
+        margin-bottom: 1em;
+    }
+    header h2 {
+        font-size: 200%;
+    }
+    header h3 {
+        font-size: 150%;
+    }
 }
-header h3 {
-    font-size: 150%;
-}
-}
+
+@media (max-width: 365px) {
+    header {
+        padding: 3em;
+        margin-bottom: .5em;
+    }
+    header h2 {
+        font-size: 150%;
+    }
+    header h3 {
+        font-size: 100%;
+
+
